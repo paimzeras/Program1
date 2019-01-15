@@ -3,20 +3,30 @@ div{
     height: 200px;
     border: 1px solid blue;
     border-radius: 100%;
-    background-image: url("../000_img/pup.jpg");
+    /*background-image: url("../000_img/pup.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
-
+    display: inline-block;
 }
+
+
+
+
+
 img {
     border: 5px groove orange;
     border-radius: 100%;
+    padding: 50px;
 }
 
 .dogone {
     border: 5px dashed blue;
     border-radius: 100%;
+    padding: 50px;
+    margin: 400px    ;
+    box-sizing: border-box;
 }
+
 
 .dogtwo {
     border: 5px solid red;
